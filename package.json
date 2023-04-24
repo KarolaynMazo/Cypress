@@ -1,0 +1,19 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:iu": "cypress open",
+    "test:headlees": "cypress run",
+    "test:headlees:chrome": "cypress run --browser chrome",
+    "test:headlees:chrome:unaprueba":"cypress run --browser chrome --spec cypress/e2e/Aserciones.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.5.1",
+    "prettier": "^2.8.4"
+  }
+}
